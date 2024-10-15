@@ -24,7 +24,7 @@ public class CompanyController {
 	//모든 부서 정보 검색
 	@GetMapping("alldepts")
 	public List<DeptDTO> getDeptAll(){
-		return service.getDeptAll();
+		return service.getDeptAll()
 	}
 	
 	
